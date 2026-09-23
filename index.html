@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fernanda Rios | Digital Experience & Web Strategy</title>
+  <meta name="description" content="Portfolio of Fernanda Rios, Digital Experience & Web Marketing Manager specializing in B2B information architecture, CRO, and digital content delivery.">
+  
+  <!-- Tailwind CSS via CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  
+  <!-- Google Fonts: Editorial Serif + Clean Modern Sans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Newsreader:ital,opsz,wght@0,6..72,300;0,6..72,400;0,6..72,500;1,6..72,400&display=swap" rel="stylesheet">
+  
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['"Inter"', 'sans-serif'],
+            serif: ['"Newsreader"', 'Georgia', 'serif'],
+          },
+          colors: {
+            surface: {
+              DEFAULT: '#FAF9F6', // Off-white warm canvas
+              muted: '#F4F2EC',
+              card: '#FFFFFF',
+              border: '#E8E5DD',
+              borderHover: '#D4CEBF',
+            },
+            ink: {
+              DEFAULT: '#191918',
+              muted: '#5C5B57',
+              light: '#85837D',
+            },
+            accent: {
+              DEFAULT: '#0A3B5C', // Deep executive navy
+              subtle: '#EEF4F8',
+            }
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body class="bg-surface text-ink font-sans antialiased selection:bg-accent selection:text-white">
+
+  <!-- Header -->
+  <header class="sticky top-0 z-50 backdrop-blur-md bg-surface/90 border-b border-surface-border">
+    <div class="max-w-5xl mx-auto px-6 h-20 flex items-center justify-between">
+      <a href="#overview" class="text-sm font-semibold tracking-tight text-ink flex items-center gap-2.5">
+        <span class="w-2 h-2 rounded-full bg-accent"></span>
+        <span class="uppercase tracking-widest text-xs font-bold">Fernanda Rios</span>
+      </a>
+      <nav class="flex items-center gap-6 sm:gap-8 text-sm text-ink-muted">
+        <a href="#cases" class="hover:text-ink transition-colors font-medium">Selected Work</a>
+        <a href="#disciplines" class="hover:text-ink transition-colors font-medium hidden sm:inline-block">Disciplines</a>
+        <a href="https://www.linkedin.com/in/fernanda-g-rios/" target="_blank" rel="noopener noreferrer" class="px-4 py-2 rounded-full border border-ink text-ink hover:bg-ink hover:text-white transition-all text-xs font-semibold uppercase tracking-wider">
+          LinkedIn
+        </a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="overview" class="py-20 sm:py-28 border-b border-surface-border">
+    <div class="max-w-5xl mx-auto px-6">
+      <div class="max-w-3xl">
+        <p class="text-xs uppercase tracking-widest text-ink-light font-bold mb-6">
+          Web Marketing Manager &middot; Digital Experience Lead
+        </p>
+        <h1 class="text-4xl sm:text-6xl font-serif font-light text-ink leading-[1.15] mb-8">
+          Crafting authoritative web experiences that turn <span class="italic font-normal">complex thinking</span> into business engagement.
+        </h1>
+        <p class="text-lg sm:text-xl text-ink-muted leading-relaxed font-light mb-10">
+          7+ years orchestrating digital content strategy, conversion architecture, and web publication ecosystems for Canada’s premier corporate institutions.
+        </p>
+        <div class="flex flex-wrap items-center gap-4 text-xs font-medium text-ink-muted">
+          <span class="px-3 py-1.5 rounded-full bg-surface-muted border border-surface-border text-ink">B2B Content Strategy</span>
+          <span class="px-3 py-1.5 rounded-full bg-surface-muted border border-surface-border text-ink">Conversion UX (CRO)</span>
+          <span class="px-3 py-1.5 rounded-full bg-surface-muted border border-surface-border text-ink">Enterprise CMS & Web Governance</span>
+          <span class="px-3 py-1.5 rounded-full bg-surface-muted border border-surface-border text-ink">Executive Stakeholder Alignment</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Value Pillars -->
+  <section class="py-14 bg-surface-muted/50 border-b border-surface-border">
+    <div class="max-w-5xl mx-auto px-6 grid sm:grid-cols-3 gap-8">
+      <div>
+        <h3 class="text-xs uppercase tracking-widest text-ink font-bold mb-2">Editorial to Web Translation</h3>
+        <p class="text-sm text-ink-muted leading-relaxed">
+          Deconstructing dense, high-stakes manuscripts into modular, scannable digital experiences structured for executive retention.
+        </p>
+      </div>
+      <div>
+        <h3 class="text-xs uppercase tracking-widest text-ink font-bold mb-2">Conversion Architecture</h3>
+        <p class="text-sm text-ink-muted leading-relaxed">
+          Strategically placing sticky navigation, persistent practitioner visibility, and contextual CTAs to generate inbound interest.
+        </p>
+      </div>
+      <div>
+        <h3 class="text-xs uppercase tracking-widest text-ink font-bold mb-2">Enterprise Governance</h3>
+        <p class="text-sm text-ink-muted leading-relaxed">
+          Establishing scalable template systems, SEO standards, and cross-functional publishing pipelines that deliver on schedule.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Featured Case Studies -->
+  <section id="cases" class="py-24">
+    <div class="max-w-5xl mx-auto px-6">
+      
+      <div class="flex flex-col sm:flex-row sm:items-baseline justify-between mb-16 pb-4 border-b border-surface-border gap-2">
+        <h2 class="text-2xl font-serif font-normal text-ink">Featured Initiatives</h2>
+        <span class="text-xs uppercase tracking-wider text-ink-light font-medium">Osler, Hoskin & Harcourt LLP</span>
+      </div>
+
+      <div class="space-y-20">
+
+        <!-- Case 1: Legal Outlook -->
+        <article class="bg-surface-card rounded-2xl border border-surface-border p-8 sm:p-12 hover:border-surface-borderHover transition-all shadow-sm">
+          <div class="flex flex-wrap items-center justify-between gap-4 mb-6">
+            <span class="text-xs uppercase tracking-widest font-semibold px-2.5 py-1 rounded bg-accent-subtle text-accent">
+              Flagship Annual Report
+            </span>
+            <span class="text-xs text-ink-light">23 Specialized Multi-Discipline Articles</span>
+          </div>
+
+          <h3 class="text-2xl sm:text-3xl font-serif text-ink mb-4 font-normal">
+            2025 Osler Legal Outlook: Multimodal Content Hub & Persistent Conversion UX
+          </h3>
+
+          <p class="text-ink-muted text-base leading-relaxed mb-8">
+            The firm’s definitive annual forecast required transforming high-volume legal and business analyses into an executive-ready digital format. Managed sensitive contributor hierarchies across dozens of practice leaders, designing the experience from zero to market launch.
+          </p>
+
+          <div class="grid sm:grid-cols-2 gap-6 p-6 rounded-xl bg-surface-muted/60 border border-surface-border mb-8 text-sm">
+            <div>
+              <p class="font-semibold text-ink text-xs uppercase tracking-wider mb-2">Conversion & UX Innovations</p>
+              <ul class="text-ink-muted space-y-2">
+                <li>&bull; <strong class="text-ink font-medium">Persistent Author Sidebar:</strong> Built dynamic sticky practitioner profiles that travel with the reader, keeping direct contact touchpoints visible across long-form analyses.</li>
+                <li>&bull; <strong class="text-ink font-medium">Executive Key Takeaways:</strong> Prominent above-the-fold modules summarizing high-level strategic takeaways for fast scanning.</li>
+              </ul>
+            </div>
+            <div>
+              <p class="font-semibold text-ink text-xs uppercase tracking-wider mb-2">Multimodal Consumption</p>
+              <ul class="text-ink-muted space-y-2">
+                <li>&bull; <strong class="text-ink font-medium">Audio + Reading Estimates:</strong> Integrated on-page audio playback alongside estimated reading/listening times.</li>
+                <li>&bull; <strong class="text-ink font-medium">Sector Tag Filters:</strong> Allowed C-suite readers to immediately curate content relevant to their industry.</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="flex flex-wrap gap-4 pt-2">
+            <a href="https://www.osler.com/en/insights/reports/2025-legal-outlook/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 px-5 py-2.5 rounded-lg bg-accent text-white text-xs font-semibold uppercase tracking-wider hover:bg-opacity-95 transition-all">
+              <span>View Main Hub</span>
+              <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"/></svg>
+            </a>
+            <a href="https://www.osler.com/en/insights/reports/2025-legal-outlook/the-rise-of-the-machines-agentic-ai/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 px-5 py-2.5 rounded-lg border border-surface-border text-ink text-xs font-semibold uppercase tracking-wider hover:bg-surface-muted transition-all">
+              <span>Agentic AI Article Case</span>
+              <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/></svg>
+            </a>
+          </div>
+        </article>
+
+        <!-- Case 2: Deal Points VC -->
+        <article class="bg-surface-card rounded-2xl border border-surface-border p-8 sm:p-12 hover:border-surface-borderHover transition-all shadow-sm">
+          <div class="flex flex-wrap items-center justify-between gap-4 mb-6">
+            <span class="text-xs uppercase tracking-widest font-semibold px-2.5 py-1 rounded bg-accent-subtle text-accent">
+              0-to-1 Web Architecture
+            </span>
+            <span class="text-xs text-ink-light">Venture Capital & Tech Ecosystem</span>
+          </div>
+
+          <h3 class="text-2xl sm:text-3xl font-serif text-ink mb-4 font-normal">
+            2025 Deal Points: Venture Capital Financings & Client Success Showcase
+          </h3>
+
+          <p class="text-ink-muted text-base leading-relaxed mb-8">
+            Osler’s annual benchmark report analyzes hundreds of Canadian tech venture financing rounds. Built the digital framework from a blank canvas, transforming raw investment metrics and convertible instrument terms into interactive visual data narratives.
+          </p>
+
+          <div class="grid sm:grid-cols-2 gap-6 p-6 rounded-xl bg-surface-muted/60 border border-surface-border mb-8 text-sm">
+            <div>
+              <p class="font-semibold text-ink text-xs uppercase tracking-wider mb-2">Bespoke Data Visualizations</p>
+              <p class="text-ink-muted">
+                Crafted and deployed dozens of responsive interactive charts, ensuring complex venture terms and liquidation preferences were digestible for founders and investment partners.
+              </p>
+            </div>
+            <div>
+              <p class="font-semibold text-ink text-xs uppercase tracking-wider mb-2">B2B Social Proof Sub-Experience</p>
+              <p class="text-ink-muted">
+                Conceptualized and launched a dedicated "Client Success Stories" chapter, bridging analytical data with real-world entrepreneurial outcomes and firm mandates.
+              </p>
+            </div>
+          </div>
+
+          <div class="flex flex-wrap gap-4 pt-2">
+            <a href="https://www.osler.com/en/insights/reports/2025-deal-points-report-venture-capital-financings/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 px-5 py-2.5 rounded-lg bg-accent text-white text-xs font-semibold uppercase tracking-wider hover:bg-opacity-95 transition-all">
+              <span>View Report Hub</span>
+              <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"/></svg>
+            </a>
+            <a href="https://www.osler.com/en/insights/reports/2025-deal-points-report-venture-capital-financings/convertible-securities-intelligence/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 px-5 py-2.5 rounded-lg border border-surface-border text-ink text-xs font-semibold uppercase tracking-wider hover:bg-surface-muted transition-all">
+              <span>Data Chapter</span>
+              <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/></svg>
+            </a>
+            <a href="https://www.osler.com/en/insights/reports/2025-deal-points-report-venture-capital-financings/2025-osler-clients-share-their-success-stories/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 px-5 py-2.5 rounded-lg border border-surface-border text-ink text-xs font-semibold uppercase tracking-wider hover:bg-surface-muted transition-all">
+              <span>Client Success Stories</span>
+              <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/></svg>
+            </a>
+          </div>
+        </article>
+
+        <!-- Case 3: Diversity Disclosure -->
+        <article class="bg-surface-card rounded-2xl border border-surface-border p-8 sm:p-12 hover:border-surface-borderHover transition-all shadow-sm">
+          <div class="flex flex-wrap items-center justify-between gap-4 mb-6">
+            <span class="text-xs uppercase tracking-widest font-semibold px-2.5 py-1 rounded bg-accent-subtle text-accent">
+              Content Architecture & Analytics
+            </span>
+            <span class="text-xs text-ink-light">Corporate Governance</span>
+          </div>
+
+          <h3 class="text-2xl sm:text-3xl font-serif text-ink mb-4 font-normal">
+            Diversity Disclosure Practices: Modular Publishing & Retention Architecture
+          </h3>
+
+          <p class="text-ink-muted text-base leading-relaxed mb-8">
+            Collaborated with legal partners and editorial writers to deconstruct a monolithic Word document into an interconnected digital hub. Partitioned findings into discrete sub-chapters, preventing scroll fatigue and allowing precise page-by-page GA4 performance analysis.
+          </p>
+
+          <div class="grid sm:grid-cols-2 gap-6 p-6 rounded-xl bg-surface-muted/60 border border-surface-border mb-8 text-sm">
+            <div>
+              <p class="font-semibold text-ink text-xs uppercase tracking-wider mb-2">Scalable Component Governance</p>
+              <p class="text-ink-muted">
+                Engineered reusable WordPress template blocks to establish a standard framework for future annual editions, drastically reducing time-to-market.
+              </p>
+            </div>
+            <div>
+              <p class="font-semibold text-ink text-xs uppercase tracking-wider mb-2">Intent-Driven Download CTAs</p>
+              <p class="text-ink-muted">
+                Structured conversion touchpoints throughout chapter endings to accurately measure appetite for the full PDF release.
+              </p>
+            </div>
+          </div>
+
+          <div class="flex flex-wrap gap-4 pt-2">
+            <a href="https://www.osler.com/en/insights/reports/2025-diversity-disclosure-practices/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 px-5 py-2.5 rounded-lg bg-accent text-white text-xs font-semibold uppercase tracking-wider hover:bg-opacity-95 transition-all">
+              <span>View Report Experience</span>
+              <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"/></svg>
+            </a>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Strategic Disciplines -->
+  <section id="disciplines" class="py-20 bg-surface-muted/60 border-t border-b border-surface-border">
+    <div class="max-w-5xl mx-auto px-6">
+      <div class="mb-14">
+        <h2 class="text-2xl font-serif font-normal text-ink mb-2">Core Competencies</h2>
+        <p class="text-sm text-ink-muted">The intersection of editorial judgment, user behavior, and enterprise technology.</p>
+      </div>
+
+      <div class="grid sm:grid-cols-3 gap-8">
+        <div class="space-y-3">
+          <p class="text-xs uppercase tracking-widest font-bold text-ink">Content & UX Strategy</p>
+          <ul class="text-sm text-ink-muted space-y-2">
+            <li>&bull; Information Architecture (IA)</li>
+            <li>&bull; Conversion Rate Optimization (CRO)</li>
+            <li>&bull; Microcopy & Clear Calls to Action</li>
+            <li>&bull; Executive Summary Formats</li>
+            <li>&bull; SEO & Content Hierarchy (H-tags)</li>
+          </ul>
+        </div>
+
+        <div class="space-y-3">
+          <p class="text-xs uppercase tracking-widest font-bold text-ink">Platform & Technical Delivery</p>
+          <ul class="text-sm text-ink-muted space-y-2">
+            <li>&bull; Enterprise WordPress Ecosystems</li>
+            <li>&bull; Adobe Experience Manager (AEM / CIBC)</li>
+            <li>&bull; Front-End Implementation (HTML/CSS/JS)</li>
+            <li>&bull; HubSpot & Dynamics CRM Alignment</li>
+            <li>&bull; Digital Accessibility (WCAG/AODA)</li>
+          </ul>
+        </div>
+
+        <div class="space-y-3">
+          <p class="text-xs uppercase tracking-widest font-bold text-ink">Measurement & Operations</p>
+          <ul class="text-sm text-ink-muted space-y-2">
+            <li>&bull; Google Analytics 4 & Looker Studio</li>
+            <li>&bull; Siteimprove Performance & Quality QA</li>
+            <li>&bull; Stakeholder & Contributor Alignment</li>
+            <li>&bull; AI Workflows (Claude & ChatGPT)</li>
+            <li>&bull; Delivery & Product Ownership</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer / Contact -->
+  <footer id="contact" class="py-20 bg-surface">
+    <div class="max-w-5xl mx-auto px-6 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-8">
+      <div>
+        <p class="text-xs uppercase tracking-widest text-ink-light font-bold mb-2">Fernanda Rios</p>
+        <h3 class="text-2xl font-serif font-normal text-ink">Ready to discuss web strategy?</h3>
+        <p class="text-sm text-ink-muted mt-1">Available for conversation regarding the Web Marketing Manager role.</p>
+      </div>
+
+      <div class="flex items-center gap-4">
+        <a href="https://www.linkedin.com/in/fernanda-g-rios/" target="_blank" rel="noopener noreferrer" class="px-6 py-3 rounded-lg bg-ink text-white text-xs font-semibold uppercase tracking-wider hover:bg-ink-muted transition-all inline-flex items-center gap-2">
+          <span>Connect on LinkedIn</span>
+          <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
